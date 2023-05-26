@@ -31,7 +31,6 @@ function HeroSection() {
         <tr>
             <td colSpan={2}><h3>CREATED BY |</h3></td>
             <td colSpan={2}>Simon</td>
-            <td colSpan={2}>View Team</td>
         </tr>
         </table>
     </div>
