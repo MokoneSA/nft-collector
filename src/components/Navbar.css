@@ -70,10 +70,14 @@
     background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
   }
 
-  button {
+  .btn-sign-up {
     width: 70px;
     height: 30px;
     color: #fff;
     border: none;
     border-radius: 15px;
+  }
+
+  .btn-sign-up:hover {
+    cursor: pointer;
   }

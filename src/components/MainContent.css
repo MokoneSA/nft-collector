@@ -45,7 +45,6 @@
     color: #fff;
     width: 500px;
     text-align: center;
-    border: 2px solid green;
 }
 
 .marketplace {
@@ -62,11 +61,12 @@
     height: 150px;
     padding: 10px;
     margin: 0 30px 0 30px;
-    border: 1px solid lime;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
+    cursor: pointer;
 }
 
 .options h4 {
+    color: #fff;
     text-align: center;
 }
 
@@ -100,8 +100,13 @@
     text-align: center;
 }
 
-.btn-category-1 {
+.btn-active {
+    border: none;
     background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
+}
+
+.btn-category {
+    cursor: pointer;
 }
 
 .categories {
@@ -133,7 +138,6 @@
 }
 
 .bid-option h4 {
-
     color: #fff;
     text-align: center;
 }
@@ -180,9 +184,9 @@
     font-size: x-large;
 }
 
-.artist-p {
+.small-font {
+    color: #fff;
     text-align: center;
-    font-size: 15px;
     width: 450px;
     margin: -10px 0 20px 0;
 }
@@ -262,7 +266,7 @@ img {
     height: 40px;
 }
 
-.email-button {
+.email-btn {
     color: #fff;
     display: inline;
     background: linear-gradient(90deg, rgba(18,194,233,1) 0%, rgba(196,113,237,1) 50%, rgba(246,79,89,1) 100%);
@@ -270,6 +274,10 @@ img {
     margin-left: -57px;
     border: none;
     border-radius: 15px 15px 15px 15px;
+}
+
+.email-btn:hover {
+    cursor: pointer;
 }
 
 .project-start {
@@ -328,5 +336,9 @@ img {
     width: 95px;
     height: 35px;
     border: none;
-    border-radius: 15px 15px 15px 15px;
+    border-radius: 15px;
+}
+
+.project-btn:hover {
+    cursor: pointer;
 }

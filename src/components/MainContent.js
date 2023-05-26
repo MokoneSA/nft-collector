@@ -38,48 +38,45 @@ function MainContent(){
         </div>
       </section>
       <section>
-        <div className='journey'>
+        <div className='journey'>  
             <div className='journey-info'>
               <h3>YOUR JOURNEY STARTS HERE</h3>
-              <p className='journey-info-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              <small className='small-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua
-              </p>
-
-              <div className='marketplace'>
-                <div className='options'>
-                  <h4>Connect Wallet</h4>
-                  <p>WalletConnect Protocol Does Not Run On A Blockchain 
-                    And There Are No Fees.
-                  </p>
-                </div>
-
-                <div className='options'>
-                  <h4>NFT Marketplace</h4>
-                  <p>
-                    An NFT. Or Non-Fungible Token, Is A Unique Tokken Recorded In A Blockchain Ownership Of A Digital Or Physical Asset.
-                  </p>
-                </div>
-
-                <div className='options'>
-                  <h4>Collect NFT</h4>
-                  <p>
-                    NFTs Or Non-Fungible Tokens Are Digital Assets Based On Blockchain Technology
-                  </p>
-                </div>
-              </div>
+              </small>
             </div>
+            <div className='marketplace'>
+                  <div className='options'>
+                    <h4>Connect Wallet</h4>
+                    <p>WalletConnect Protocol Does Not Run On A Blockchain 
+                      And There Are No Fees.
+                    </p>
+                  </div>
+                  <div className='options'>
+                    <h4>NFT Marketplace</h4>
+                    <p>
+                      An NFT. Or Non-Fungible Token, Is A Unique Tokken Recorded In A Blockchain Ownership Of A Digital Or Physical Asset.
+                    </p>
+                  </div>
+                  <div className='options'>
+                    <h4>Collect NFT</h4>
+                    <p>
+                      NFTs Or Non-Fungible Tokens Are Digital Assets Based On Blockchain Technology
+                    </p>
+                  </div>
+              </div>
         </div>
       </section>
       <section>
         <div className='trending-nft'>
           <h3 className='trending-nft-h3'>TREDING NFT THIS WEEK</h3>
-          <p className='trending-p'>
+          <small className='small-font'>
             It is illegal to screenshot an NFT and pass it of as your own.
             It is also illegal to post it online or make a physical copy.
-          </p>
+          </small>
           <div className='categories'>
-            <button className='btn-category-1'>All Categories</button>
+            <button className='btn-category btn-active'>All Categories</button>
             <button className='btn-category'>Art</button>
             <button className='btn-category'>Abstract</button>
             <button className='btn-category'>Video</button>
@@ -116,11 +113,11 @@ function MainContent(){
       <section>
         <div className='top-artist'>
         <h3 className='heading-artist'>TOP ARTIST</h3>
-          <p className='artist-p'>
+          <small className='small-font'>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua
-          </p>
+          </small>
           <div className='artist-list'>
             <div className='artist-name'>
               <ArtistCard><img src={pic1} alt='' />bessie lee</ArtistCard>
@@ -166,7 +163,7 @@ function MainContent(){
             </small>
             <form className="email" action="action_page.php">
                 <input type="text" className='email-input' placeholder="  Enter your email" name="email"/>
-                <button type="submit" className='email-button'>EMAIL</button>
+                <button type="submit" className='email-btn'>EMAIL</button>
             </form>
           </div>
           <div className='newsletter-image'>
@@ -179,9 +176,9 @@ function MainContent(){
           <div className='project-outer-border'>
             <div className='project-info'>
               <h3>NEVER MISS A DROP</h3>
-              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              <small className='small-font'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
-                aliqua</p>
+                aliqua</small>
               <button className='project-btn'>Start Project</button>
             </div>
           </div> 

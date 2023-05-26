@@ -33,7 +33,7 @@ function Card(props){
       <small style={smallStyle}>Current Bid</small><p style={pStyle}>2.3ETH</p>
       </div>
       <div className='place-bid'>
-      <p style={nftArtist}>Gelan Stack</p><button>Place Bid</button>
+      <p style={nftArtist}>Gelan Stack</p><button className='bid-btn'>Place Bid</button>
       </div>
     </>
   )
