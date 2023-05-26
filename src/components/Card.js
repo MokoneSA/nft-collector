@@ -27,7 +27,7 @@ function Card(props){
         <img src={children} alt='' />
       </div>
       <div>
-      <h3>Ast Digital Art #19</h3>
+      <h3 className='card-heading'>Ast Digital Art #19</h3>
       </div>
       <div className='currency'>
       <small style={smallStyle}>Current Bid</small><p style={pStyle}>2.3ETH</p>

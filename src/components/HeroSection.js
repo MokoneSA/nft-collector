@@ -14,7 +14,7 @@ function HeroSection() {
             And Culture Creates A Following
         </small>
         <form className="example" action="action_page.php">
-            <input type="text" className='search-input' placeholder="Search.." name="search"/>
+            <input type="text" className='search-input' placeholder="  Search.." name="search"/>
             <button type="submit" className='search-button'>SEARCH</button>
         </form>
         <table className='stats'>

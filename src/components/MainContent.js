@@ -41,7 +41,7 @@ function MainContent(){
         <div className='journey'>
             <div className='journey-info'>
               <h3>YOUR JOURNEY STARTS HERE</h3>
-              <p className='hearding-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
+              <p className='journey-info-p'>Lorem ipsum dolor sit amet, consectetur adipiscing elit, 
                 sed do eiusmod tempor incididunt ut labore et dolore magna 
                 aliqua
               </p>
@@ -55,28 +55,25 @@ function MainContent(){
                 </div>
 
                 <div className='options'>
-                  <h4>Connect Wallet</h4>
+                  <h4>NFT Marketplace</h4>
                   <p>
-                    WalletConnect Protocol Does Not Run On A Blockchain 
-                    And There Are No Fees.
+                    An NFT. Or Non-Fungible Token, Is A Unique Tokken Recorded In A Blockchain Ownership Of A Digital Or Physical Asset.
                   </p>
                 </div>
 
                 <div className='options'>
-                  <h4>Connect Wallet</h4>
+                  <h4>Collect NFT</h4>
                   <p>
-                    WalletConnect Protocol Does Not Run On A Blockchain 
-                    And There Are No Fees.
+                    NFTs Or Non-Fungible Tokens Are Digital Assets Based On Blockchain Technology
                   </p>
                 </div>
-
               </div>
             </div>
         </div>
       </section>
       <section>
         <div className='trending-nft'>
-          <h3>TREDING NFT THIS WEEK</h3>
+          <h3 className='trending-nft-h3'>TREDING NFT THIS WEEK</h3>
           <p className='trending-p'>
             It is illegal to screenshot an NFT and pass it of as your own.
             It is also illegal to post it online or make a physical copy.

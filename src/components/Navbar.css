@@ -13,7 +13,6 @@
     z-index: 999;
   }
   
-  
   .navbar-container {
     display: flex;
     justify-content: center;
@@ -23,6 +22,7 @@
   }
   
   .navbar-logo {
+    color: #fff;
     cursor: pointer;
     text-decoration: none;
     font-size: 2rem;
@@ -31,8 +31,9 @@
     border: 5px solid grey;
   }
   
-  .navbar-logo h1 {
+  .navbar-logo-h1 {
     color: #fff;
+    text-decoration: none;
   }
   
   .nav-menu {

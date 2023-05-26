@@ -38,18 +38,22 @@
 .journey-info h3 {
     color: #fff;
     text-align: center;
+    font-size: x-large;
 }
 
-.hearding-p {
+.journey-info-p {
     color: #fff;
     width: 500px;
     text-align: center;
+    border: 2px solid green;
 }
+
 .marketplace {
     display: flex;
-    margin-top: 50px;
+    margin: 50px 0 50px 0;
     justify-content: center;
     background-color: #1b1c42;
+
 }
 
 .options {
@@ -83,9 +87,10 @@
     margin-right: auto;
 }
 
-.trending-nft h3 {
+.trending-nft-h3 {
     color: #fff;
     text-align: center;
+    font-size: x-large;
 
 }
 
@@ -104,7 +109,7 @@
     flex-direction: row;
     justify-content: center;
     align-items: center;
-    margin-top: 20px;
+    margin: 50px 0 40px 0;
 }
 
 .bid-section {
@@ -172,7 +177,7 @@
 
 .heading-artist {
     color: #fff;
-    font-size: xx-large;
+    font-size: x-large;
 }
 
 .artist-p {
