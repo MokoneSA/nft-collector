@@ -1,0 +1,47 @@
+.footerNav {
+    background-color: #1b1c42;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: sticky;
+    top: 0;
+    z-index: 999;
+  }
+  
+  .navbar-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    width: 960px;
+  }
+
+  .footer-logo {
+    color: white;
+    margin-left: 40px;
+    width: 20%;
+  }
+
+  .footer-logo h3 {
+    color: white;
+    text-decoration: none;
+  }
+
+  .nav-footer {
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    text-align: center;
+    justify-content: end;
+    margin-right: 30px;
+    width: 70%;
+  }
+  
+  .nav-item {
+    font-size: 15px;
+    height: 20px;
+    margin-bottom: 15px;
+  }
+  
+ 

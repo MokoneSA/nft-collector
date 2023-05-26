@@ -1,0 +1,39 @@
+.border-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 137px;
+    height: 126px;
+    border: 2px solid blueviolet;
+    border-radius: 16px 16px 16px 16px;
+    padding: 1;
+}
+
+.artist {
+    width: 131px;
+    height: 120px;
+    background: linear-gradient(90deg, rgba(30,53,112,1) 0%, rgba(49,37,98,1) 50%, rgba(67,41,119,1) 100%);
+    border-radius: 16px;
+
+}
+
+.artist-image {
+    width: 40px;
+    height: 40px;
+    margin: 15px 0 0 10px;
+    border-radius: 50%;
+}
+
+.artist-h3 {
+    font-size: 18px;
+    color: #fff;
+    text-align: start;
+    margin: 5px 10px -1px 10px;
+}
+
+.artist small, p {
+    font-size: 10px;
+    color: #fff;
+    margin: -1px 10px -1px 10px;
+
+}

@@ -1,0 +1,10 @@
+.bid-image-border {
+    width: 165px;
+    height: 115px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0 0 0;
+    border: 2px solid limegreen;
+}
