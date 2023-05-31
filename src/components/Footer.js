@@ -16,7 +16,7 @@ function Footer(){
         <div className='social-links'>
           <a href="#" class="fa fa-facebook"></a>
           <a href="#" class="fa fa-twitter"></a>
-          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-instagram"></a>
         </div>
       </div>
       <div className='copyright'>
