@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/nft-collector/static/css/main.37c57f21.css",
-    "main.js": "/nft-collector/static/js/main.fa9e9616.js",
+    "main.css": "/nft-collector/static/css/main.82342163.css",
+    "main.js": "/nft-collector/static/js/main.e7ddb421.js",
     "static/media/pic8.jpg": "/nft-collector/static/media/pic8.ee031f3d3eb543c185ea.jpg",
     "static/media/pic2.jpg": "/nft-collector/static/media/pic2.029cc9c8d9ab73add38d.jpg",
     "static/media/pic1.jpg": "/nft-collector/static/media/pic1.e22799c13bce1b796dc0.jpg",
@@ -20,11 +20,11 @@
     "static/media/pic7.jpg": "/nft-collector/static/media/pic7.3f186bb25a0045742d67.jpg",
     "static/media/pic4.jpg": "/nft-collector/static/media/pic4.d939a51d44b4feeb845a.jpg",
     "index.html": "/nft-collector/index.html",
-    "main.37c57f21.css.map": "/nft-collector/static/css/main.37c57f21.css.map",
-    "main.fa9e9616.js.map": "/nft-collector/static/js/main.fa9e9616.js.map"
+    "main.82342163.css.map": "/nft-collector/static/css/main.82342163.css.map",
+    "main.e7ddb421.js.map": "/nft-collector/static/js/main.e7ddb421.js.map"
   },
   "entrypoints": [
-    "static/css/main.37c57f21.css",
-    "static/js/main.fa9e9616.js"
+    "static/css/main.82342163.css",
+    "static/js/main.e7ddb421.js"
   ]
 }
