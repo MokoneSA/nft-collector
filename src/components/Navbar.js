@@ -1,6 +1,7 @@
 import React, {useState} from 'react';
 import { Link } from 'react-router-dom';
 import './Navbar.css';
+import Button from './Button';
 
 function Navbar(){
   return (
@@ -32,7 +33,7 @@ function Navbar(){
                     </Link>
                 </li>
             </ul>
-            <button className='btn-sign-up'>Sign Up</button>
+            <Button className='btn-sign-up'>Sign Up</Button>
         </div>
       </nav>
     </>

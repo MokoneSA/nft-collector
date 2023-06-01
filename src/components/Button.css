@@ -10,6 +10,11 @@
     cursor: pointer;
 }
 
+.btn-sign-up {
+    border: none;
+    border-radius: 15px;
+}
+
 .btn--primary {
     background-color: var(--primary);
     color: #242424;
